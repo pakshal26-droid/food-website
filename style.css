@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+
+
+
+.parent1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:row;
+    height: 100vh;
+    
+    
+}
+
+.child1{
+    background: salmon;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 7px 7px 5px rgb(26, 25, 25);
+    cursor: pointer;
+    
+}
+
+.child2{
+    background: rgb(99, 87, 86);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 7px 7px 5px rgb(26, 25, 25);
+    cursor: pointer;
+}
+
+.child3{
+    background: rgb(49, 47, 46);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 7px 7px 5px rgb(26, 25, 25);
+    cursor: pointer;
+}
+
+
+
+h1{
+    color: seashell;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.titleofthepage .parent h1 {
+    color: rgb(228, 216, 216);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+h2{
+   color: rgb(212, 182, 182);
+   
+   text-align: center;
+}
+
+#Button{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: skyblue;
+    font-size: 20px;
+    border: 5px solid ivory;
+    
+}
+#result{
+    color: ivory;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:650px){
+    .parent1{
+        flex-direction: column;
+    }
+    .child1, .child2 ,.child3{
+        height: 70px;
+        width: 300px;
+
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .titleofthepage .parent h1 {
+        color: rgb(228, 216, 216);
+        font-size: 50px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+h2{
+    margin-top: 10px;
+}
+    
+
+
+    
+}
+
+@media screen and (max-width:325px){
+    .child1, .child2 ,.child3{
+        height: 50px;
+        width: 150px;
+
+    }
+
+    h1{
+        font-size: 15px;
+    }
+
+    .titleofthepage .parent h1 {
+        color: rgb(228, 216, 216);
+        font-size: 15px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+
+    
+   
+}
+
+@media screen and (max-width:420px){
+    .titleofthepage .parent h1 {
+        color: rgb(228, 216, 216);
+        font-size: 50px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .child1, .child2 ,.child3{
+        height: 120px;
+        width: 280px;
+
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+
+}
